@@ -1,0 +1,497 @@
+
+/* Styles Généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5; /* Fond très très clair pour contraster avec le bleu */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/* Styles de l'Entête (Header) et de la Navigation */
+header {
+    background: #1A2A47; /* BLEU MARINE PROFOND */
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #FFD700 3px solid; /* LIGNE OR CHAUDE */
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2.2em;
+}
+
+header p {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.1em;
+    margin: 5px 0 15px 0;
+}
+
+header nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    color: #FFD700; /* OR CHAUD au survol */
+}
+
+/* Styles du Bouton */
+.btn {
+    display: inline-block;
+    color: #1A2A47; /* Texte en bleu marine */
+    background: #FFD700; /* FOND OR CHAUD */
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #e6c200; /* Or légèrement plus foncé au survol */
+}
+
+/* Section Accueil (Hero) */
+.hero {
+    text-align: center;
+    padding: 60px 0;
+    background: #fff; /* Fond blanc pour la clarté */
+}
+
+/* Styles de la Photo de Profil (avec la correction de taille) */
+.profile-pic {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #FFD700; /* Bordure OR CHAUDE */
+}
+
+/* Sections Services et Portfolio */
+.services, .portfolio, .contact {
+    padding: 40px 0;
+}
+
+.services h2, .portfolio h2, .contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #1A2A47; /* Titres en BLEU MARINE */
+}
+
+.service-grid, .portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-item, .portfolio-item {
+    flex-basis: 30%;
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-item h3 {
+    color: #00112f; /* Titres de service en BLEU MARINE  */
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Pied de page (Footer) */
+footer {
+    background: #01112f; /* BLEU MARINE PROFOND */
+    color: #5aab69;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+/* Styles Généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #d2d29c; /* Fond très très clair pour contraster avec le bleu */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/* Styles de l'Entête (Header) et de la Navigation */
+header {
+    background: #1A2A47; /* BLEU MARINE PROFOND */
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #FFD700 3px solid; /* LIGNE OR CHAUDE */
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2.2em;
+}
+
+header p {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.1em;
+    margin: 5px 0 15px 0;
+}
+
+header nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    color: #FFD700; /* OR CHAUD au survol */
+}
+
+/* Styles du Bouton */
+.btn {
+    display: inline-block;
+    color: #1A2A47; /* Texte en bleu marine */
+    background: #FFD700; /* FOND OR CHAUD */
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #e6c200; /* Or légèrement plus foncé au survol */
+}
+
+/* Section Accueil (Hero) */
+.hero {
+    text-align: center;
+    padding: 60px 0;
+    background: #fff; /* Fond blanc pour la clarté */
+}
+
+/* Styles de la Photo de Profil (avec la correction de taille) */
+.profile-pic {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #FFD700; /* Bordure OR CHAUDE */
+}
+
+/* Sections Services et Portfolio */
+.services, .portfolio, .contact {
+    padding: 40px 0;
+}
+
+.services h2, .portfolio h2, .contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #1A2A47; /* Titres en BLEU MARINE */
+}
+
+.service-grid, .portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-item, .portfolio-item {
+    flex-basis: 30%;
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-item h3 {
+    color: #1A2A47; /* Titres de service en BLEU MARINE */
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Pied de page (Footer) */
+footer {
+    background: #1A2A47; /* BLEU MARINE PROFOND */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+/* Styles Généraux */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fond gris très clair */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/* Styles de l'Entête (Header) et de la Navigation */
+header {
+    background: #333; /* Fond gris foncé */
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #007bff 3px solid; /* Ligne bleue pour accentuer */
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2.2em;
+}
+
+header p {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.1em;
+    margin: 5px 0 15px 0;
+}
+
+header nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    color: #007bff; /* Changement de couleur au survol */
+}
+
+/* Styles du Bouton */
+.btn {
+    display: inline-block;
+    color: #fff;
+    background: #2a63a4; /* Bleu d'action */
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #072b51; /* Bleu plus foncé au survol */
+}
+
+/* Section Accueil (Hero) */
+.hero {
+    text-align: center;
+    padding: 60px 0;
+    background: #fff; /* Fond blanc pour la clarté */
+}
+
+/* Styles de la Photo de Profil (CORRECTION DE LA TAILLE FORCÉE) */
+.profile-pic {
+    max-width: 250px; /* Taille maximale réglée à 250 pixels */
+    width: 100%; /* S'assure qu'elle ne dépasse pas sa boîte parente */
+    height: auto; /* Maintient les proportions */
+    border-radius: 50%; /* Image circulaire */
+    margin-bottom: 20px;
+    border: 5px solid #b66868; /* Bordure légère */
+}
+
+/* Styles des Images trop grandes (Réduction Générale si besoin) */
+/* CIBLE TOUTES les images dans la section "hero" pour plus de sécurité */
+.hero img {
+    max-width: 100%; /* S'assure qu'aucune image ne dépasse le conteneur */
+    height: auto;
+}
+
+
+/* Sections Services et Portfolio */
+.services, .portfolio, .contact {
+    padding: 40px 0;
+}
+
+.services h2, .portfolio h2, .contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #07305c;
+}
+
+.service-grid, .portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-item, .portfolio-item {
+    flex-basis: 30%; /* Pour afficher 3 éléments par ligne */
+    background: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    text-align: center;
+}
+
+.service-item h3 {
+    color: #232505;
+    border-bottom: 1px solid #f6f6f6;
+    padding-bottom: 10px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Pied de page (Footer) */
+footer {
+    background: #101010;
+    color: #4984ad;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+/* NOUVEAUX STYLES POUR LA CARTE PROFESSIONNELLE */
+.hero-card {
+    background-color: #1a233b; /* Fond bleu très foncé/marine */
+    color: #e0e0e0; /* Texte blanc */
+    border-radius: 15px; /* Coins arrondis pour la carte */
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Ombre forte pour un effet 3D */
+}
+
+.card-content {
+    display: flex; /* Permet à la photo et au texte d'être côte à côte */
+    align-items: center;
+    gap: 30px; /* Espace entre la photo et le texte */
+    text-align: left;
+}
+
+.card-content .profile-pic {
+    /* La taille de la photo est déjà réglée à 250x250 dans le HTML pour la fiabilité */
+    flex-shrink: 0; /* Empêche la photo de rétrécir */
+}
+
+.card-content h1 {
+    font-size: 1.5em;
+    color: #007b3c; /* Couleur d'accentuation (Or/Jaune) */
+    margin-top: 0;
+    text-align: left;
+}
+
+.card-content .subtitle {
+    font-size: 1.2em;
+    color: #010b2f; /* Gris clair pour le sous-titre */
+}
+
+.card-content p {
+    font-size: 1.1em;
+}
+
+/* Modifie le style du Hero général pour ne pas centrer tout le contenu */
+.hero {
+    text-align: left; /* Annule le centrage global */
+}
+/* STYLES POUR LES LOGOS DE PLATEFORMES (FIVERR, UPWORK) */
+.social-links {
+    text-align: center; /* Centre les logos */
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.platform-logo {
+    width: 100px; /* Taille des logos (tu peux ajuster) */
+    height: auto; /* Maintient les proportions */
+    margin: 0 15px; /* Espace entre les logos */
+    vertical-align: middle; /* Pour un bon alignement si d'autres éléments sont sur la ligne */
+    transition: transform 0.3s ease; /* Animation au survol */
+}
+
+.platform-logo:hover {
+    transform: scale(1.5); /* Agrandit légèrement au survol */
+}
